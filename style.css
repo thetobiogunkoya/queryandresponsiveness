@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  height: 100%;
+}
+main {
+  background-image: url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.part1 {
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+}
+.part1 h3{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+.part1 p{
+    font-family: poppins;
+    font-weight: 300;
+    font-weight: 16px;
+    color: white;
+    padding: 10px;
+
+}
+.part2 {
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+}
+.freeplan {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.freeplan p {
+  font-family: poppins, sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+.freeplan p span {
+  color: white;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+}
+.divform {
+  background-color: white;
+  width: 100%;
+}
+form {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.divform input{
+  margin-bottom: 15px;
+  align-items: center;
+}
+.divform input button{
+   width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+  
+
+/* input[type="text"] {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+input[type="email"] {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+input[type="password"] {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 80%;
+  margin-bottom: 15px;
+}
